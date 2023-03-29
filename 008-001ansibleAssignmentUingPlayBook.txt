@@ -1,0 +1,13 @@
+---
+	 - name: "Assignnment on ping and file system"
+ 	  hosts: localhost
+ 
+	tasks:
+
+	 - name :"Test reachability "
+  	   ping
+
+ 	- name :"Locate files in the downloads folder"
+  	  find:
+    	    path:~/Downloads
+          file_type : file

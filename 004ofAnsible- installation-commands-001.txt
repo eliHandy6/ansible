@@ -1,0 +1,37 @@
+>>https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#pip-install
+>>https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html
+
+>>python3 -m pip -V
+
+ 	SUCCESS 
+
+	python3 -m pip -V
+	pip 21.0.1 from /usr/lib/python3.9/site-packages/pip (python 3.9)
+
+      FAILURE
+
+      >> curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+      >> python3 get-pip.py --user
+
+
+>> python3 -m pip install --user ansible 
+      OR
+>> python3 -m pip install --user ansible-core==2.12.3
+
+
+UPGRADE
+
+>> python3 -m pip install --upgrade --user ansible
+
+
+CONFIRM
+>> ansible --version
+>> python3 -m pip show ansible
+
+
+MAC
+>>python --version
+>>python3 --version
+>>brew install python3
+>>sudo pip3 install ansible
+>>ansible --version

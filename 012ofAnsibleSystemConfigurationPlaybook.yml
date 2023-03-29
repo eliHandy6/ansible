@@ -1,0 +1,10 @@
+---
+hosts :all 
+become :yes
+name: "NTP configuration"
+
+tasks:
+	-name:"Ensure NPT is stated now and at boot"
+ 	 service:ntp
+          state: started
+          enabled: yes

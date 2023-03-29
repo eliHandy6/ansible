@@ -1,0 +1,22 @@
+Using ansible to connect to other computers
+
+SYSTEM A
+----------------------------------
+>>ls 
+>>ls -a (lists hidden files)
+>>cd .ssh
+>>ls
+  authorized_keys
+  id_rsa
+  id_rsa.pub
+  known_hosts
+>>vim id_rsa
+
+SYSTEM B
+-----------------------------------
+>>cd .ssh
+>>cat authorized_keys
+  Paste the ssh Keys to the authorized acccess Keys
+
+
+

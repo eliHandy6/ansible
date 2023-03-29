@@ -1,0 +1,12 @@
+[webservers]
+w1.ajsnetworking.com
+w2.ajsnetworking.com
+172.168.[2-4].200
+
+
+[dbservers]
+db1.ajsnetworking.com
+192.168.5.150
+
+
+

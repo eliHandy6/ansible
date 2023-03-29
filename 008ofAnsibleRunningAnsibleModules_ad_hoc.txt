@@ -1,0 +1,3 @@
+>>ansible localhost -m find -a "paths=Downloads file_type=file"
+>>ansible-playbook 009ofAnsiblePlaybookExample.yml
+>>ansible-playbook 009ofAnsiblePlaybookExample.yml -v

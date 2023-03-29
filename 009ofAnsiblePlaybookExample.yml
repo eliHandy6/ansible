@@ -1,0 +1,17 @@
+---
+	 - name: "My first play"
+ 	  hosts: localhost
+ 
+	tasks:
+
+	 - name :"Test reachability "
+  	   ping
+
+ 	- name :"install stress"
+  	  homebrew:
+    	    name: stress
+          state : present
+
+
+
+  

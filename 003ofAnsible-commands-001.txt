@@ -1,0 +1,5 @@
+>ansible-playbook sample_1ofAnsible-playbook-001.yml
+>ansible myservers -m ping
+>cd /etc/ansible
+>ls
+>vim ansible.cfg
